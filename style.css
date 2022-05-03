@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Bookman Old Style";
+    background-color: lightgrey;
+    padding: 30px 5px;
+    height: 10%;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.header a img{
+    width: 50px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #b9b9b9;
+    height: 80vh;
+}
+
+.welcome-img{
+    width: 100%;
+    padding: 20px;
+}
+
+.cars_list{
+    border-collapse: collapse;
+}
+
+.cars_list tr, th, td{
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+    background-color: lightgrey;
+    padding: 16px 5px;
+    height: 10%;
+}
+
+#updateBtn{
+    background-color: lightblue;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#deleteBtn{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
